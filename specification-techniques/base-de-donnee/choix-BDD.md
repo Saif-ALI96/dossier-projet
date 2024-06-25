@@ -1,4 +1,4 @@
-Cécile --[**Discord-Simplon/doc/technical-proposition.md**]
+<!-- Cécile --[**Discord-Simplon/doc/technical-proposition.md**] -->
 
 ## 📑 Proposition de base de donnée
 
