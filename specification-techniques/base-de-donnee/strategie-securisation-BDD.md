@@ -42,3 +42,17 @@ En cas de cessation d'activité de la part de la solution ou d'un utilisateur, c
 Un utilisateur souhaitant connaître les informations stockées le concernant a tout à fait le droit de réclamer son droit de regard, et nous ne saurions nous soustraire à ce droit.
 
 En ce sens, le client a un droit de regard sur toutes les données qui concerne son service.
+
+### Conformité au RGPD (Règlement Général sur la Protection des Données)
+
+Pour assurer la conformité de notre application aux normes de protection des données définies par le RGPD, notamment en France, nous avons mis en place les mesures suivantes :
+Consentement explicite : Lors de la création de profil, les utilisateurs devront donner un consentement clair et explicite pour le traitement de leurs données personnelles.
+Minimisation des données : Nous ne collecterons que les informations indispensables, telles que le nom, l'e-mail et les détails de paiement, nécessaires à la réservation.
+Droits des utilisateurs : Les utilisateurs seront informés de leurs droits, incluant :
+
+1. Le droit à la consultation : Les utilisateurs peuvent demander et obtenir l'accès à leurs données personnelles.
+2. Le droit de rectification : Les utilisateurs peuvent corriger leurs données inexactes.
+3. Le droit à l'effacement (droit à l'oubli) : Les utilisateurs peuvent demander la suppression de leurs
+   données personnelles dans certaines circonstances.
+4. Le droit de retirer leur consentement : Les utilisateurs peuvent retirer leur consentement au
+   traitement de leurs données à tout moment
