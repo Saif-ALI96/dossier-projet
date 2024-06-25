@@ -1,66 +1,144 @@
-# 👤 Identification des personas
-
-![drawing with profile pictures](assets/imgs/targets.png)
+# 👤 Identification des Personas
 
 <br>
 
-## 👨🏼‍🎓 La persona Apprenant
+## **Persona Apprenant**
 
-    Le persona apprenant est agé entre 18 et 30 ans, sans préférence de sexe ou de genre. 
-    Le personna apprenant parle ou comprends bien le français. 
-    L'apprenant n'est pas toujours à l'aise avec l'outil Discord.
-    Le persona apprenant est utilisateur d'outil informatiques car en formation, ce qui implique une certaine capacité d'adaptation.
-    Il communique par Discord ou par mail, il n'a pas ou peu de réseau dans le milieu de l'informatique.
+- **Âge** : 18-30 ans
+- **Langue** : Français
+- **Compétences** :
+  - Utilisation d'outils informatiques
+  - Connaissance limitée de Discord
+- **Communication** :
+  - Utilise Discord et email
+  - Réseau limité dans le domaine informatique
 
-### Le persona apprenant en formation
+### Exemple
 
-    Le persona apprenant en formation hérite des caractéristiques du persona apprenant. 
-    Le persona apprenant en formation est un apprenant ayant été admis ou en phase d'admission dans une formation en cours chez Simplon. 
-    Ce statut prends fin lors de la fin de la formation et celui-ci devient Alumni.
-    Le personna apprenant a pour objectif d'élargir son réseau et d'accèder aux métiers de l'informatique.
+> **Nom** : Alex
+>
+> **🎓 Statut** : En formation
+>
+> **💼 Objectifs** : Améliorer ses compétences en programmation et élargir son réseau professionnel
 
-### Le persona apprenant Alumni
+---
 
-    L'apprenant Alumni hérite des caractéristiques du persona apprenant. 
-    Ancien persona apprenant en formation, il est devenu alumni lorsque sa formation a pris fin. 
-    Le persona Alumni a pour objectif d'accèder aux métiers de la technologie. 
+## Persona Apprenant en Formation
 
-## Le personna visiteur
+- **Caractéristiques** : Hérite des caractéristiques du persona apprenant.
+- **Statut** : Admis ou en phase d'admission dans une formation en cours chez Simplon. Ce statut prend fin à la fin de la formation, après quoi il devient Alumni.
+- **Objectifs** :
+  - Élargir son réseau.
+  - Accéder aux métiers de l'informatique.
 
-    Le persona visiteur est âgé d'entre 18 et 30 ans, sans préférence de sexe ou de genre. 
-    Le persona visiteur parle ou comprends bien le français. 
-    Utilisateur occasionnel de Discord, il maîtrise l'outil dans sa configuration la plus simple. 
-    Curieux dans le domaine de l'informatique, sa décision d'orientation dans ce domaine n'est pas prise et celui-ci doute encore. 
-    Il est à la recherche d'opportunités de formations. 
+### Exemple
 
-## 👮‍♀️ Le persona Staff
+> **Nom** : Sarah
+>
+> **Âge** : 24 ans
+>
+> **Langue** : Français
+>
+> **Statut** : En cours de formation développeur web chez Simplon.
+>
+> **Objectifs** : Souhaite décrocher un stage dans une entreprise de tech et développer son réseau professionnel.
 
-    Le persona staff est agée entre 25 et 45 ans, elle ne maitrise pas Discord.
-    Ce persona utilise au quotidien les mails pour une communication formelle et traçable, ainsi que la plateforme Discord. 
-    Utilisateur quotidien de Discord, il ne connait que les fonctionnalités de base et recherche la simplicité d'utilisation. 
-    Son réseau dans le milieu de l'informatique et des apprenants est développé. 
-    Le persona staff recherche la fiabilité de ses outils afin d'augmenter ses performances profesionelles. 
+---
 
-### Le persona CAPS
+## Persona Apprenant Alumni
 
-    Le persona CAPS hérite des caractéristique du persona Staff.
-    De plus : 
-    Le persona CAPS a environ 30 ans, sans préférence de sexe ou de genre. 
-    Au quotidien, la communication au travail ne se fait uniquement qu'en français.
-    Le persona CAPS est dynamique et souhaite favoriser les bonnes conditions de travail des apprenants en formation.  
+- **Caractéristiques** : Hérite des caractéristiques du persona apprenant.
+- **Statut** : Ancien persona apprenant en formation, devenu Alumni à la fin de sa formation.
+- **Objectifs** : Accéder aux métiers de la technologie.
 
-### Le persona Administration
+### Exemple
 
-    Le persona Administration hérite des caractéristiques du persona Staff.
-    Le persona administration est une femme âgée de 30 ans environ. 
-    Son travail quotidien s'effectue en français. 
+> **Nom** : Julien
+>
+> **Âge** : 28 ans
+>
+> **Langue** : Français
+>
+> **Statut** : Alumni, a terminé une formation en data science.
+>
+> **Objectifs** : Cherche un emploi en tant que data analyst.
 
-### 🧑‍🏫 Le persona Formateur/trice
+---
 
-    Le persona formateur hérite des caractéristiques du persona Staff. 
-    Le persona formateur/trice est agée entre 25 et 45 ans, 
-    Possédant une maîtrise des outils informatiques, le persona formateur n'est pas réticent au changement. 
-    Il est confrontée à l'utilisation de Discord au quotidien afin de communiquer avec l'apprenant.
-    L'utilisation de Discord lui permet également le partage d'informations ou de contenus avec les promotions desquelles il est responsable. 
-    Il utilise aussi le mail comme moyen de communication à des fins plus formelles, dans une moindre proportion que le persona Staff.
-    Son objectif est d'accompagner au mieux les apprenant.
+## **Persona Visiteur**
+
+- **Âge** : 18-30 ans
+- **Langue** : Français
+- **Compétences** :
+  - Utilisateur occasionnel de Discord
+  - Intérêt pour l'informatique
+- **Objectifs** : Recherche d'opportunités de formations
+
+### Exemple
+
+> **Nom** : Mélanie
+>
+> **🔍 Intérêts** : Explorer les possibilités de carrière dans l'informatique
+
+---
+
+## **Persona Staff**
+
+- **Âge** : 25-45 ans
+- **Langue** : Français
+- **Compétences** :
+  - Utilisation quotidienne de Discord et email
+  - Réseau développé dans le secteur informatique
+- **Objectifs** : Améliorer l'efficacité des communications professionnelles
+
+### Exemple
+
+> **Nom** : Marie
+>
+> **📧 Compétences** : Gestion des communications avec les apprenants et collègues
+
+---
+
+## **Persona Formateur/trice**
+
+- **Âge** : 25-45 ans
+- **Langue** : Français
+- **Compétences** :
+  - Maîtrise des outils informatiques
+  - Utilisation de Discord pour l'enseignement et les échanges de ressources
+- **Objectifs** : Accompagner les apprenants tout au long de leur formation
+
+### Exemple
+
+> **Nom** : Laura
+>
+> **👩‍🏫 Rôle** : Enseigner et soutenir les apprenants dans leur parcours académique
+
+---
+
+## **Persona CAPS**
+
+- **Âge** : Environ 30 ans
+- **Langue** : Français
+- **Traits** : Dynamique, favorise de bonnes conditions de travail pour les apprenants
+
+### Exemple
+
+> **Nom** : Thomas
+>
+> **🌟 Objectifs** : Améliorer l'environnement d'apprentissage pour les étudiants
+
+---
+
+## **Persona Administration**
+
+- **Âge** : Environ 30 ans
+- **Genre** : Femme
+- **Langue** : Français
+- **Compétences** : Gestion administrative et communication interne
+
+### Exemple
+
+> **Nom** : Isabelle
+>
+> **📊 Responsabilités** : Gérer les tâches administratives et faciliter la communication

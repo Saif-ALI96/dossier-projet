@@ -51,8 +51,6 @@ Notre proposition de stratégie s'articule autour de l'outil de communication Di
 
 ## 🔕 Endiguer la multiplicité des outils <a id="tools-multiplicity"></a>
 
-![tool multiplicity](assets/imgs/multiplicity-tools-image.png)
-
 Lors de discutions avec différents membres des équipes Simplon HDF concernant les problématiques organisationnelles, nous avons identifié une problématique majeure : La multiplicité des outils, c'est-à-dire le nombre d'outils de communication que Simplon HDF utilise afin de communiquer, notamment les serveurs Discord.
 Dans l'optique de pallier cette problématique, nous avons réfléchi à une solution permettant d'endiguer ce phénomène et avons opté pour la création d'un unique serveur Discord centralisant tout l'écosystème Simplon.
 
@@ -127,8 +125,6 @@ Grâce à ce système, nous endiguerons alors le nombre de messages inutiles en 
 
 ## 📱 Garder le contact avec les anciens apprenants <a id="keep-alumnis-conctact"></a>
 
-![Conctact image](assets/imgs/keep-contact.png)
-
 Dans le cadre de ce projet, nous avons étudié la question du suivi des apprenants après leurs formations. Pour ce faire nous avons interrogé différents membres du staff et réalisé des recherches sur les possibilités de suivi des alumnis et avons constaté que les alumnis, une fois leur formation révolue, ne gardent pas le contact avec Simplon. Nous avons réfléchi aux différentes causes responsables de ce phénomène et avons identifié des solutions suite à nos réflexions.
 
 Le suivi des apprenants est un aspect compliqué à maintenir sur le long terme dès lors qu'il existe un nombre élevé d'outils de communication. En effet, lorsqu'une formation se termine, les apprenants n'ont plus aucune utilité à rester actif sur ce serveur spécifique, les membres du staff ne sont plus actifs sur le serveur de la promotion, car elle n'est plus d'actualité. Il est difficile de rester actif sur un serveur Discord dont la fonction principale est d'accueillir des membres dans un temps donné, d'autant plus lorsque le nombre de serveur Discord est aussi élevé.
@@ -148,11 +144,9 @@ Cependant, comme nous l'avons explicité auparavant, il est possible de mettre e
 
 ## 👩‍🏫 Apport d'un aspect de Mentoring <a id="get-mentoring"></a>
 
-![mentoring image](assets/imgs/mentoring.png)
-
 Lors de nos phases de recherche, nous avons réfléchi à l'apport d'un aspect de Mentoring à cette stratégie et des bienfaits que cela pourrait engendrer ainsi que des inconvénients liés. Nous avons alors discuté de cet aspect avec différents membres du staff Simplon HDF et avons constatés qu'il s'agissait d'une amélioration intéressante dans le cadre de ce projet.
 
-Nous avons alors imaginé un système de mise en relation entre apprenants/alumnis au sein du serveur Discord, par le biais d'espace dédié, les utilisateurs pourront prendre contact avec des mentors sélectionnés. 
+Nous avons alors imaginé un système de mise en relation entre apprenants/alumnis au sein du serveur Discord, par le biais d'espace dédié, les utilisateurs pourront prendre contact avec des mentors sélectionnés.
 Les interactions entre les utilisateurs et les mentors seront encadrées par un bot spécialement conçu pour la bonne mise en relation de ces deux parties.
 
 L'apport d'un aspect de Mentorat constitue une amélioration intéressante car cela permet d'offrir un suivi post-formation pour les alumnis et ainsi apporter de nouvelles raisons aux alumnis de rester actifs sur le serveur Discord Simplon HDF.
@@ -166,8 +160,6 @@ Toutefois, il est possible d'optimiser ces processus à l'aide de bot permettant
 L'utilisation d'un bot effectuant ces tâches permettra alors de réduire grandement la charge de travail initiale et pure que représente cette solution.
 
 ## 📂 Amélioration du sourcing via Discord <a id="improve-sourcing"></a>
-
-![Sourcing image](assets/imgs/sourcing-improvement.png)
 
 Dans le cadre de ce projet, nous avons discuté avec différents membres des équipes Simplon HDF concernant le sourcing et avons compris qu'il existe des difficultés concernant cet aspect.
 Le sourcing est un domaine crucial pour un organisme de formation tel que celui-ci. Les financements et donc les formations dispensées par Simplon HDF dépendent du Sourcing, il s'agit d'ailleurs d'un sujet de discussion récurrent au sein des équipes Simplon, c'est pourquoi nous avons porté une attention particulière à ce sujet. Suite à ces discussions ainsi qu'à nos analyses nous avons réfléchi aux améliorations techniques que nous pourrions apporter quant à cet aspect.
