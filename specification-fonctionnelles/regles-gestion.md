@@ -1,4 +1,4 @@
-### Règles de gestion
+## Règles de gestion
 
 ### Entités
 
@@ -69,3 +69,45 @@
 **Validation d'Invitation :**
 
 - Un administrateur, directeur ou formateur doit valider l'identité du nouvel arrivant avant de lui attribuer le rôle.
+
+### Règles Générales de Gestion
+
+1. **Configuration Initiale** :
+
+   - l'administrateur, directeur, campus-manager,caps peut configurer initialement le bot.
+
+2. **Ajout de Staff** :
+
+   - L'administrateur et le directeur peuvent ajouter des membres du staff.
+   - Les nouveaux membres du staff doivent être vérifiés avant d'obtenir leurs rôles.
+
+3. **Ajout de Formations** :
+
+   - Les administrateurs, directeurs et CAPS peuvent créer de nouveaux types de formation.
+
+   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent ajouter des formations.
+   - Les formations doivent être validées par une entité de niveau supérieur (administrateur ou directeur).
+
+4. **Ajout d'Apprenants** :
+
+   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent ajouter des apprenants aux formations.
+   - Les apprenants doivent être vérifiés avant d'accéder aux formations.
+
+5. **Ajout d'Utilisateurs Existants** :
+
+   - Les administrateurs, directeurs et campus-managers peuvent ajouter des utilisateurs existants à une formation.
+   - Les utilisateurs doivent être vérifiés avant d'accéder aux formations.
+
+6. **Gestion des Modèles de Formation** :
+
+   - administrateurs, directeurs et campus-managers peut ajouter ou modifier les modèles de catégorie de formation.
+
+7. **Validation des Identités** :
+
+   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent valider les identités des nouveaux arrivants.
+
+8. **Visibilité des Formations** :
+   - Les administrateurs, directeurs, staff Simplon, campus-managers, CAPS et formateurs peuvent voir les formations disponibles.
+   - Les apprenants ne peuvent voir que les formations auxquelles ils sont inscrits.
+
+Administrateur, Directeur ,Staff Simplon,Campus-manager,Caps,Formateur et apprenant
