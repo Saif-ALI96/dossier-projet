@@ -1,69 +1,71 @@
 ### Règles de gestion
 
-#### Configuration du Bot
+### Entités
 
-- Le bot doit disposer d'un système de configuration permettant de personnaliser ses fonctionnalités et comportements.
+**Utilisateur**
 
-#### Gestion du Staff
+- **ID**: Identifiant unique de l'utilisateur (UUID)
+- **Pseudo**: Nom de l'utilisateur
+- **Email**: Adresse email de l'utilisateur
 
-- **Ajout des membres du staff** :
-  - Commande de génération d'embed dans un canal pour ajouter des membres du staff.
-  - L'embed doit inclure une liste déroulante pour sélectionner le rôle et générer un lien d'invitation.
+**Formation**
 
-#### Gestion des Formations
+- **ID**: Identifiant unique de la formation (UUID)
+- **Nom**: Nom de la formation
+- **Type**: Type de formation
+- **Date de début**: Date de début de la formation
+- **Date de fin**: Date de fin de la formation
+- **Statut**: La formation peut être active ou archivée
 
-- **Création d'un nouveau type de formation** :
+**Type de Formation**
 
-  - Commande de génération d'embed dans un canal pour créer un nouveau type de formation.
-  - L'embed doit inclure un bouton pour envoyer une demande de nom pour le nouveau type de formation.
+- **ID**: Identifiant unique du type de formation (UUID)
+- **Nom**: Nom du type de formation
 
-- **Ajout de formations** :
-  - Commande de génération d'embed dans un canal pour ajouter une formation.
-  - L'embed doit inclure une liste déroulante pour sélectionner le type de formation.
-  - Une demande doit être envoyée pour compléter le nom de la formation.
-  - Un nouvel embed doit être envoyé avec un bouton pour créer la formation.
-  - Le bot doit demander la date de début et de fin de la formation.
+**Invitation**
 
-#### Gestion des Apprenants
+- **ID**: Identifiant unique de l'invitation (UUID)
+- **Type d'invitation**: Indique si l'invitation est pour un apprenant ou un membre du staff
+- **Lien d'invitation**: Lien généré pour l'invitation
+- **Formation ID**: ID de la formation pour l'invitation
+- **Validité**: Durée de validité du lien d'invitation
+- **Utilisé**: Indique si le lien a été utilisé
 
-- **Ajout d'apprenants à une formation** :
+### Gestion des Formations
 
-  - Commande de génération d'embed dans un canal pour ajouter des apprenants.
-  - L'embed doit inclure une liste déroulante pour générer un lien d'invitation spécifique à la formation.
-  - Le lien d'invitation doit être valide pour une seule personne et temporaire.
+**Création de Formation :**
 
-- **Ajout de nouveaux utilisateurs présents sur le serveur à une formation** :
-  - Commande de génération d'embed dans un canal pour ajouter des utilisateurs existants à une formation.
-  - L'embed doit inclure une liste déroulante pour sélectionner une formation.
-  - Un nouvel embed doit être envoyé avec un bouton pour afficher un formulaire d'ajout d'utilisateur.
+- **Un administrateur, un directeur, le Staff Simplon, un Campus-manager ou un membre de Cap** peut créer une nouvelle formation en fournissant:
+  - le nom
+  - le type
+  - la date de début
+  - la date de fin
 
-#### Gestion des Catégories de Formation
+**Ajout d'Apprenant à une formation :**
 
-- **Ajout ou modification de template de catégorie de formation** :
+- **Un administrateur, directeur, staff Simplon, campus-manager ou formateur**
 
-  - Commande de génération d'embed dans un canal pour ajouter ou modifier un template de catégorie de formation.
-  - Une catégorie de formation est un ensemble de canaux dédiés à une formation.
+- peut ajouter des apprenants ou utilisateurs existants à une formation.
+- Les invitations sont envoyées avec des liens valides pour une seule personne et pour une durée déterminée.
 
-- **Génération d'embed de configuration à la création d'une formation** :
-  - Lors de la création d'une formation, le bot doit générer un embed de configuration dans un canal dédié à sa catégorie.
-  - Le lien d'invitation généré par le bot doit fonctionner pour une seule personne et être temporaire.
+**Fonctionnalités Formation :**
 
-#### Vérification et Sécurité
+- Un administrateur, directeur, staff Simplon, campus-manager, Caps peut archiver ou de restaurer une formation active.
+- Un administrateur, directeur campus-manager, Caps et formateur peut modifier les détails d'une formation.
+- Un apprenant peut voir les formations auxquelles il est inscrit.
 
-- **Détection et création d'embed** :
+### Gestion des Invitations
 
-  - Le bot ne doit pas pouvoir créer deux fois le même embed de configuration.
-  - Le bot doit pouvoir détecter si un embed a été supprimé pour permettre la création d'un nouveau.
-  - Les administrateurs peuvent supprimer un embed.
+**Création d'Invitation :**
 
-- **Vérification à l'ajout d'utilisateur** :
-  - Lors de l'ajout d'un utilisateur à une formation, le bot doit envoyer une demande de vérification dans un canal dédié à cette formation.
-  - Le bot doit imposer une identification lors de l'arrivée d'un nouvel apprenant ou d'un nouveau membre du staff.
-  - Lors de l'arrivée d'un nouvel apprenant, le bot doit envoyer un message de demande de vérification dans un canal dédié à cette formation.
-  - Lors de l'arrivée d'un nouveau staff, le bot doit envoyer un message de demande de vérification dans un canal dédié au staff.
-  - Une fois la vérification de l'identité validée, le rôle doit être attribué par le bot à l'utilisateur du lien.
+- Un administrateur ou directeur peut générer une invitation pour un apprenant ou un membre du staff.
+- L'invitation contient un lien unique, valable pour une seule personne et pour une durée déterminée.
 
-#### Sélection des Formations Visibles
+**Utilisation d'Invitation :**
 
-- **Visibilité des formations pour le staff** :
-  - Le bot doit mettre en place un embed dans un canal permettant de sélectionner les formations visibles pour le staff.
+- Un utilisateur invité doit suivre le lien pour s'inscrire à la formation.
+- Après utilisation, le lien d'invitation est marqué comme utilisé.
+
+**Validation d'Invitation :**
+
+- Un administrateur, directeur ou formateur doit valider l'identité du nouvel arrivant avant de lui attribuer le rôle.
