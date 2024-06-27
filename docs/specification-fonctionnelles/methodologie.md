@@ -6,6 +6,20 @@ Ce document décrit notre approche et organisation pour le projet Discord Commun
 
 Notre but est de présenter de manière claire et structurée le plan de travail et l'organisation adoptée pour atteindre nos objectifs de manière efficiente.
 
+
+## <u>Rôles et Responsabilités de l'Équipe</u>
+
+Chaque membre de l'équipe a des rôles et responsabilités spécifiques pour assurer le bon déroulement du projet :
+
+- <u>**Product Owner** :</u> Responsable de définir et de prioriser les fonctionnalités du Product Backlog.\
+➡️ Assigné à : Saif ALI
+
+- <u>**Scrum Master** :</u> Facilite les rituels SCRUM, élimine les obstacles et aide l'équipe à améliorer son processus de travail.\
+➡️ Assigné à : Cécie HURAIUX
+
+- <u>**Équipe de Développement** :</u> Développe les fonctionnalités définies dans le Sprint Backlog et collabore pour atteindre les objectifs du sprint.
+➡️ Assigné à : Cécile HURIAUX & Saif ALI
+
 ## <u>Méthodologie de Travail</u>
 
 - ### Tableau Comparatif des Méthodologies de Travail
@@ -61,8 +75,7 @@ Afin d'adhérer parfaitement à l'approche Agile/SCRUM que nous avons adoptée, 
 
 JIRA offre des fonctionnalités qui nous aident à visualiser nos progrès, à planifier de manière flexible et à nous adapter aux exigences changeantes du projet. En utilisant JIRA, nous pouvons rester alignés avec les principes Agile tout en bénéficiant d'une structure qui nous aide à livrer efficacement nos logiciels.
 
-De plus, JIRA nous permet de tirer parti des nombreux outils et ressources disponibles pour les équipes Agile, ainsi que du support d'une vaste communauté et de consultants spécialisés. 
-
+De plus, JIRA nous permet de tirer parti des nombreux outils et ressources disponibles pour les équipes Agile, ainsi que du support d'une vaste communauté et de consultants spécialisés.\
 ![Jira Software Badge](https://img.shields.io/badge/Jira%20Software-0052CC?logo=jirasoftware&logoColor=fff&style=for-the-badge)
 
 
@@ -99,17 +112,50 @@ Durant le sprint, l'équipe a des réunions quotidiennes de coordination. Ces Da
  - <u>**Sprint Retrospective**</u>\
 Après la review, vient la Sprint Retrospective. Cette réunion est dédiée à l'analyse des processus utilisés pendant le sprint. L'équipe discute de ce qui a bien fonctionné et de ce qui peut être amélioré pour les prochains sprints. C'est un moment essentiel pour l'amélioration continue des pratiques de l'équipe.
 
+## Organisation des Tickets sur JIRA
+![Jira Badge](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=fff&style=for-the-badge)
 
-## <u>Rôles et Responsabilités de l'Équipe</u>
+Pour gérer efficacement le projet SimplOnboarding, nous avons organisé notre travail en plusieurs Epics et tâches et sous-tâches associées sur JIRA. Cette structure nous permet de suivre l'avancement du projet de manière claire et organisée. Voici un aperçu détaillé de notre organisation des tickets sur JIRA.
 
-Chaque membre de l'équipe a des rôles et responsabilités spécifiques pour assurer le bon déroulement du projet :
+- ### Epics et Tâches
 
-- <u>**Product Owner** :</u> Responsable de définir et de prioriser les fonctionnalités du Product Backlog.
+#### 1. 🟪 Setup du Projet
+L'Epic "Setup du Projet" concerne la création du répertoire Git, la définition de la structure des dossiers, l'initialisation des fichiers de base, ainsi que la rédaction des documents `presentation.md` et `Readme.md`.
 
-- <u>**Scrum Master** :</u> Facilite les rituels SCRUM, élimine les obstacles et aide l'équipe à améliorer son processus de travail.
+#### 2. 🟪 Cahier des Charges
+L'Epic "Cahier des Charges" est dédiée à la documentation détaillée du projet. Elle comprend la rédaction des documents `analyse-des-besoins.md`, `composition-equipe.md`, `contexte-et-enjeux.md`, et la création du document `personnas.md`.
 
-- <u>**Équipe de Développement** :</u> Développe les fonctionnalités définies dans le Sprint Backlog et collabore pour atteindre les objectifs du sprint.
+#### 3. 🟪 Gestion de Projet
+L'Epic "Gestion de Projet" couvre la création de la documentation méthodologique et le suivi du projet, notamment à travers la rédaction du document `methodologie-de-travail.md`.
 
+#### 4. 🟪 Sécurité et Accès
+L'Epic "Sécurité et Accès" se focalise sur la définition des rôles et permissions (RBAC), ainsi que sur l'établissement des règles de gestion.
+
+#### 5. 🟪 Base de données
+L'Epic "Base de données" traite de la structuration et de la sécurité de la base de données. Elle inclut la rédaction des documents relatifs à la RGPD, l'établissement d'une stratégie de sécurité pour la base de données, et la création des diagrammes Merise (MCD, MLD, Dictionnaire de données, MPD), ainsi que le choix du stack BDD.
+
+#### 6. 🟪 Back-end
+L'Epic "Back-end" concerne le développement et la sécurisation de la partie back-end du projet. Elle comprend l'établissement d'une stratégie de sécurité, la création des diagrammes UML (diagramme d'activité, diagramme use case, diagramme de classes, diagrammes de séquence), ainsi que le choix du stack.
+
+## Suivi des Tickets
+
+Chaque tâche et sous-tâche est assignée à un membre de l'équipe avec des délais spécifiques pour garantir une progression régulière et contrôlée du projet. Les tickets JIRA nous permettent de suivre l'état de chaque tâche et d'identifier rapidement les obstacles potentiels.
+
+### Statuts des Tickets
+
+Nous avons les statuts suivants pour suivre l'avancement des tickets :
+
+- **À faire**: Tâche à commencer.
+- **En cours**: Tâche en cours de réalisation.
+- **Problèmes**: Difficulté(s) rencontrées, bugs à corriger.
+- **À vérifier**: Tâche terminée en attente de validation du client.
+- **Terminé**: Tâche complétée et vérifiée.
+
+### Réunions de Suivi
+
+Des réunions de suivi hebdomadaires sont organisées pour examiner l'avancement des tâches, réassigner les priorités si nécessaire et résoudre les problèmes rencontrés par les membres de l'équipe.
+
+En structurant notre travail de cette manière, nous assurons une gestion claire et efficace du projet, nous permettant de respecter les délais et les exigences de qualité fixées par Simplon.
 
 
 ## <u>Ressources :</u>
@@ -128,7 +174,14 @@ Chaque membre de l'équipe a des rôles et responsabilités spécifiques pour as
 - [Visual-Paradigm.com](https://www.visual-paradigm.com/scrum/what-is-product-backlog-in-scrum/)
 
 <div align="right">
-    <a href="#contrôle-daccès-basé-sur-le-rôle-rbac">
-        <img src="#méthodologie-et-plannification" alt="image pour un button vers le haut" style="width: 25px;" />
+    <a href="#méthodologie-de-travail">
+        <img src="#back-to-top" alt="Retour vers le haut" style="width: 25px;" />
     </a>
 </div>
+
+
+
+
+
+
+
