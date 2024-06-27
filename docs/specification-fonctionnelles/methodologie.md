@@ -183,21 +183,21 @@ En structurant notre travail de cette manière, nous assurons une gestion claire
 
 ## <u>Glossaire :</u>
 
-Backlog - Liste de toutes les tâches ou fonctionnalités prévues pour un projet, souvent utilisée dans les contextes Agile et SCRUM.
+**Backlog** - Liste de toutes les tâches ou fonctionnalités prévues pour un projet, souvent utilisée dans les contextes Agile et SCRUM.
 
-Sprint - Période définie pendant laquelle une quantité spécifique de travail doit être complétée et prête pour la révision dans un projet Agile.
+**Sprint** - Période définie pendant laquelle une quantité spécifique de travail doit être complétée et prête pour la révision dans un projet Agile.
 
-RBAC (Role-Based Access Control) - Contrôle d'accès basé sur les rôles où les permissions sont attribuées selon les rôles des utilisateurs dans l'organisation.
+**RBAC** (Role-Based Access Control) - Contrôle d'accès basé sur les rôles où les permissions sont attribuées selon les rôles des utilisateurs dans l'organisation.
 
-RGPD (Règlement Général sur la Protection des Données) - Réglementation de l'UE qui dicte comment les données personnelles doivent être traitées et protégées.
+**RGPD** (Règlement Général sur la Protection des Données) - Réglementation de l'UE qui dicte comment les données personnelles doivent être traitées et protégées.
 
-Epics - Un groupe de tâches liées qui ensemble contribuent à un objectif plus large dans le cadre de la gestion de projet Agile.
+**Epics** - Un groupe de tâches liées qui ensemble contribuent à un objectif plus large dans le cadre de la gestion de projet Agile.
 
-Tâches - Activités ou actions spécifiques qui doivent être complétées dans le cadre d'un projet.
+**Tâches** - Activités ou actions spécifiques qui doivent être complétées dans le cadre d'un projet.
 
 <div align="right">
     <a href="#méthodologie-de-travail">
-        <img src="#back-to-top" alt="Retour vers le haut" style="width: 25px;" />
+        <img src="../imgs/image-docs/icon-vers-le-haut.png" alt="Retour vers le haut" style="width: 25px;" />
     </a>
 </div>
 
