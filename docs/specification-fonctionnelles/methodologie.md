@@ -196,7 +196,7 @@ En structurant notre travail de cette manière, nous assurons une gestion claire
 **Tâches** - Activités ou actions spécifiques qui doivent être complétées dans le cadre d'un projet.
 
 <div align="right">
-    <a href="#méthodologie-de-travail">
+    <a href="#méthodologie-et-plannification">
         <img src="../imgs/image-docs/icon-vers-le-haut.png" alt="Retour vers le haut" style="width: 25px;" />
     </a>
 </div>
