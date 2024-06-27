@@ -119,23 +119,30 @@ Pour gérer efficacement le projet SimplOnboarding, nous avons organisé notre t
 
 - ### Epics et Tâches
 
-#### 1. 🟪 Setup du Projet
-L'Epic "Setup du Projet" concerne la création du répertoire Git, la définition de la structure des dossiers, l'initialisation des fichiers de base, ainsi que la rédaction des documents `presentation.md` et `Readme.md`.
 
-#### 2. 🟪 Cahier des Charges
-L'Epic "Cahier des Charges" est dédiée à la documentation détaillée du projet. Elle comprend la rédaction des documents `analyse-des-besoins.md`, `composition-equipe.md`, `contexte-et-enjeux.md`, et la création du document `personnas.md`.
+### 1. 🟪 Mise en Place du Projet
+**Objectif :** Préparer notre espace de travail.
+- Nous commençons par créer un répertoire Git pour stocker notre code et organisons les fichiers et dossiers nécessaires. Nous rédigeons également les premiers documents de présentation du projet.
 
-#### 3. 🟪 Gestion de Projet
-L'Epic "Gestion de Projet" couvre la création de la documentation méthodologique et le suivi du projet, notamment à travers la rédaction du document `methodologie-de-travail.md`.
+### 2. 🟪 Cahier des Charges
+**Objectif :** Documenter en détail les aspects du projet.
+- Nous produisons des documents pour décrire précisément les besoins du projet, les membres de l'équipe, les défis à surmonter et les utilisateurs cibles.
 
-#### 4. 🟪 Sécurité et Accès
-L'Epic "Sécurité et Accès" se focalise sur la définition des rôles et permissions (RBAC), ainsi que sur l'établissement des règles de gestion.
+### 3. 🟪 Gestion de Projet
+**Objectif :** Organiser et suivre le projet efficacement.
+- Nous créons un document qui explique comment nous allons gérer le projet, les méthodes de travail à suivre et les procédures de suivi des progrès.
 
-#### 5. 🟪 Base de données
-L'Epic "Base de données" traite de la structuration et de la sécurité de la base de données. Elle inclut la rédaction des documents relatifs à la RGPD, l'établissement d'une stratégie de sécurité pour la base de données, et la création des diagrammes Merise (MCD, MLD, Dictionnaire de données, MPD), ainsi que le choix du stack BDD.
+### 4. 🟪 RBAC et Règles de Gestion
+**Objectif :** Organiser l'accès et les données du projet.
+- Nous définissons des rôles et des permissions pour clarifier qui peut accéder et modifier certaines parties du projet. Les règles de gestion aident à expliquer comment les informations doivent être reliées et gérées dans un système pour qu'elles restent correctes et utiles.
 
-#### 6. 🟪 Back-end
-L'Epic "Back-end" concerne le développement et la sécurisation de la partie back-end du projet. Elle comprend l'établissement d'une stratégie de sécurité, la création des diagrammes UML (diagramme d'activité, diagramme use case, diagramme de classes, diagrammes de séquence), ainsi que le choix du stack.
+### 5. 🟪 Base de données
+**Objectif :** Structurer et protéger la base de données.
+- Nous mettons en place et sécurisons la structure de la base de données, rédigeons des directives de protection des données (RGPD) et choisissons les technologies appropriées.
+
+### 6. 🟪 Back-end
+**Objectif :** Planifier la structure technique du projet.
+- Nous utilisons des diagrammes pour définir clairement comment le back-end va fonctionner et pour décider des outils et technologies les plus adaptés à nos besoins.
 
 ## Suivi des Tickets
 
@@ -173,14 +180,26 @@ En structurant notre travail de cette manière, nous assurons une gestion claire
 - [![Atlassian Badge](https://img.shields.io/badge/Atlassian-0052CC?logo=atlassian&logoColor=fff&style=for-the-badge)](https://asana.com/fr/resources/waterfall-agile-kanban-scrum)
 - [Visual-Paradigm.com](https://www.visual-paradigm.com/scrum/what-is-product-backlog-in-scrum/)
 
+
+## <u>Glossaire :</u>
+
+Backlog - Liste de toutes les tâches ou fonctionnalités prévues pour un projet, souvent utilisée dans les contextes Agile et SCRUM.
+
+Sprint - Période définie pendant laquelle une quantité spécifique de travail doit être complétée et prête pour la révision dans un projet Agile.
+
+RBAC (Role-Based Access Control) - Contrôle d'accès basé sur les rôles où les permissions sont attribuées selon les rôles des utilisateurs dans l'organisation.
+
+RGPD (Règlement Général sur la Protection des Données) - Réglementation de l'UE qui dicte comment les données personnelles doivent être traitées et protégées.
+
+Epics - Un groupe de tâches liées qui ensemble contribuent à un objectif plus large dans le cadre de la gestion de projet Agile.
+
+Tâches - Activités ou actions spécifiques qui doivent être complétées dans le cadre d'un projet.
+
 <div align="right">
     <a href="#méthodologie-de-travail">
         <img src="#back-to-top" alt="Retour vers le haut" style="width: 25px;" />
     </a>
 </div>
-
-
-
 
 
 
