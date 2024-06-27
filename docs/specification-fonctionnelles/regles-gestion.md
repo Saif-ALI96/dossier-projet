@@ -1,113 +1,92 @@
-## Règles de gestion
+# Règles de gestion
 
-### Entités
 
-**Utilisateur**
+## Définition des Entités
 
-- **ID**: Identifiant unique de l'utilisateur (UUID)
-- **Pseudo**: Nom de l'utilisateur
-- **Email**: Adresse email de l'utilisateur
+**bot** : *est un assistant qui aide à automatiser les tâches sur le serveur.*
 
-**Formation**
+**embed** : *est une fiche d'information interactive qui apparaît dans les messages.*
 
-- **ID**: Identifiant unique de la formation (UUID)
-- **Nom**: Nom de la formation
-- **Type**: Type de formation
-- **Date de début**: Date de début de la formation
-- **Date de fin**: Date de fin de la formation
-- **Statut**: La formation peut être active ou archivée
+**lien d'invitation** : *est un lien qui permet à une nouvelle personne de rejoindre un serveur.*
 
-**Type de Formation**
+**administrateur** : *est une personne qui a le pouvoir de modifier et de contrôler les paramètres d'un serveur.*
 
-- **ID**: Identifiant unique du type de formation (UUID)
-- **Nom**: Nom du type de formation
+**catégorie de formation** : *est un ensemble de canaux dédiés à une formation.*
 
-**Invitation**
 
-- **ID**: Identifiant unique de l'invitation (UUID)
-- **Type d'invitation**: Indique si l'invitation est pour un apprenant ou un membre du staff
-- **Lien d'invitation**: Lien généré pour l'invitation
-- **Formation ID**: ID de la formation pour l'invitation
-- **Validité**: Durée de validité du lien d'invitation
-- **Utilisé**: Indique si le lien a été utilisé
+## Règles bot OnBoarding
 
-### Gestion des Formations
+- Un **bot** <u>doit disposer</u> d'un **système de configuration**.
 
-**Création de Formation :**
+  - Le **bot** doit avoir une commande de génération d'**embed** (dans un canal) pour l'ajout des membres du staff.
 
-- **Un administrateur, un directeur, le Staff Simplon, un Campus-manager ou un membre de Cap** peut créer une nouvelle formation en fournissant:
-  - le nom
-  - le type
-  - la date de début
-  - la date de fin
+    - L'**embed** doit disposer d'une liste déroulante permettant de sélectionner le rôle afin de générer un **lien d'invitation**.
 
-**Ajout d'Apprenant à une formation :**
+  - Le **bot** doit avoir une commande de génération d'**embed** (dans un canal) pour la création d'un nouveau type de formation.
 
-- **Un administrateur, directeur, staff Simplon, campus-manager ou formateur**
+    - L'**embed** doit disposer d'un bouton permettant d'envoyer une **demande** de nom pour le nouveau type de formation.
+---
 
-- peut ajouter des apprenants ou utilisateurs existants à une formation.
-- Les invitations sont envoyées avec des liens valides pour une seule personne et pour une durée déterminée.
+- Le **bot** doit avoir une commande de génération d'**embed** (dans un canal) pour l'ajout de formation.
 
-**Fonctionnalités Formation :**
+    - L'**embed** doit disposer d'une liste déroulante permettant la sélection du type de formation.
 
-- Un administrateur, directeur, staff Simplon, campus-manager, Caps peut archiver ou de restaurer une formation active.
-- Un administrateur, directeur campus-manager, Caps et formateur peut modifier les détails d'une formation.
-- Un apprenant peut voir les formations auxquelles il est inscrit.
+      - Une **demande** doit être envoyée pour demander de compléter le nom de la formation.
 
-### Gestion des Invitations
+      - Un nouvel **embed** doit être envoyé et doit disposer d'un bouton permettant de créer une nouvelle formation.
 
-**Création d'Invitation :**
+      - Le **bot** doit envoyer un message demandant la date de début et de fin de la formation.
 
-- Un administrateur ou directeur peut générer une invitation pour un apprenant ou un membre du staff.
-- L'invitation contient un lien unique, valable pour une seule personne et pour une durée déterminée.
+      - À la date de fin de formation, le **bot** doit activer un bouton 'Terminer la promotion' (qui était grisé) pour cloturer la formation.
+    
+    - Après création d'une promotion, le **bot** doit permettre de toujours pouvoir éditer la date et le nom de la formation.
 
-**Utilisation d'Invitation :**
+    - Lorsqu'un formateur souhaite supprimer une promotion, le **bot** doit envoyer une demande de suppression à l'**administrateur**.
 
-- Un utilisateur invité doit suivre le lien pour s'inscrire à la formation.
-- Après utilisation, le lien d'invitation est marqué comme utilisé.
+      -  L'**administrateur** doit pouvoir exécuter la suppression de la formation.
 
-**Validation d'Invitation :**
+  - Le **bot** doit avoir une commande de génération d'**embed** (dans un canal) pour l'ajout d'apprenants à une formation.
 
-- Un administrateur, directeur ou formateur doit valider l'identité du nouvel arrivant avant de lui attribuer le rôle.
+    - L'**embed** doit disposer d'une liste déroulante permettant de générer un **lien d'invitation** pour un nouvel apprenant, à une formation spécifique.
 
-### Règles Générales de Gestion
+      - Le **lien d'invitation** doit être valide pour une seule personne.
 
-1. **Configuration Initiale** :
+  - Le **bot** doit avoir une commande de génération d'**embed** (dans un canal) pour l'ajout de nouveaux utilisateurs déjà présents sur le serveur Discord, à une formation.
 
-   - l'administrateur, directeur, campus-manager,caps peut configurer initialement le bot.
+    - L'**embed** doit disposer d'une liste déroulante permettant de sélectionner une formation spécifique.
 
-2. **Ajout de Staff** :
+      - Lors de la sélection de la formation, un nouvel **embed** doit être envoyé, il doit disposer d'un bouton permettant d'afficher un formulaire d'ajout d'utilisateur.
 
-   - L'administrateur et le directeur peuvent ajouter des membres du staff.
-   - Les nouveaux membres du staff doivent être vérifiés avant d'obtenir leurs rôles.
+  - Le **bot** doit avoir une commande de génération d'**embed** pour l'ajout ou la modification de template de catégorie de formation.
 
-3. **Ajout de Formations** :
+    - Le **bot** doit à la création d'une formation, générer un **embed** de configuration dans un channel propre à sa catégorie.
+---
 
-   - Les administrateurs, directeurs et CAPS peuvent créer de nouveaux types de formation.
+- Le **lien d'invitation** généré par le **bot** ne doit fonctionner que pour une personne.
+---
 
-   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent ajouter des formations.
-   - Les formations doivent être validées par une entité de niveau supérieur (administrateur ou directeur).
+- Le **lien d'invitation** doit être temporaire.
+---
 
-4. **Ajout d'Apprenants** :
+- Le **bot** ne doit pas pouvoir créer deux fois le même **embed** de configuration.
+---
 
-   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent ajouter des apprenants aux formations.
-   - Les apprenants doivent être vérifiés avant d'accéder aux formations.
+- Le **bot** doit pouvoir détecter si un **embed** a été supprimé pour permettre la création d'une nouvelle.
+---
 
-5. **Ajout d'Utilisateurs Existants** :
+- L'**administrateur** peut supprimer un **embed**.
+---
 
-   - Les administrateurs, directeurs et campus-managers peuvent ajouter des utilisateurs existants à une formation.
-   - Les utilisateurs doivent être vérifiés avant d'accéder aux formations.
+- Lors de l'ajout d'un utilisateur à une formation, le **bot** doit envoyer une demande de vérification (dans un canal dédié à cette formation).
+---
 
-6. **Gestion des Modèles de Formation** :
+- Le **bot** doit imposer une identification lors de l'arrivée d'un nouvel apprenant ou nouveau membre du staff.
 
-   - administrateurs, directeurs et campus-managers peut ajouter ou modifier les modèles de catégorie de formation.
+  - Lors de l'arrivée d'un nouvel apprenant, le **bot** doit envoyer un message de demande de vérification (dans un canal dédié à cette formation).
 
-7. **Validation des Identités** :
+  - Lors de l'arrivée d'un nouveau staff, le **bot** doit envoyer un message de demande de vérification (dans un canal dédié au staff).
 
-   - Les administrateurs, directeurs, staff Simplon, campus-managers et formateurs peuvent valider les identités des nouveaux arrivants.
+    - Une fois la vérification de l'identité validée, le rôle doit être attribué par le **bot** à l'utilisateur du lien.
+---
 
-8. **Visibilité des Formations** :
-   - Les administrateurs, directeurs, staff Simplon, campus-managers, CAPS et formateurs peuvent voir les formations disponibles.
-   - Les apprenants ne peuvent voir que les formations auxquelles ils sont inscrits.
-
-Administrateur, Directeur ,Staff Simplon,Campus-manager,Caps,Formateur et apprenant
+- Le **bot** doit mettre en place un **embed** (dans un canal) permettant de sélectionner les formations visibles pour le staff.
