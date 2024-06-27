@@ -1,6 +1,6 @@
 # Méthodologie et plannification
 
-[ *illustration* ]
+![Méthodologie](../imgs/methodologie/methodology.png)
 
 Ce document décrit notre approche et organisation pour le projet Discord Communautaire de Simplon HDF. Pour rendre nos choix transparents et compréhensibles, nous avons illustré notre sélection de méthodologies et d'outils de gestion de projet à travers des tableaux comparatifs. Ces tableaux démontrent comment chaque option se conforme aux exigences spécifiques du projet, assurant une progression efficace et adaptée. 
 
@@ -28,15 +28,11 @@ Pour répondre aux besoins spécifiques du projet 'Serveur Discord Communautaire
 
 - ### <u>Agile</u>
 
-[ *illustration* ]
-
 **Agile** est idéale pour ce projet car elle nous permet de nous adapter rapidement et efficacement aux changements. Cette méthode favorise une interaction continue avec toutes les parties prenantes, ce qui nous aide à ajuster nos processus en fonction des retours et des évolutions du contexte organisationnel de Simplon. Agile nous donne la flexibilité nécessaire pour répondre aux exigences dynamiques de gestion, de communication et de sourcing.
 
 
 
 - ### <u>SCRUM</u>
-
-[ *illustration* ]
 
 **SCRUM**, de son côté, apporte une structure organisée à travers des cycles de développement appelés sprints. Chaque sprint(¹) est une opportunité pour évaluer nos avancées et ajuster nos plans. Ce cadre est essentiel pour maintenir l'alignement du projet avec ses objectifs, surtout dans un contexte où plusieurs acteurs et des exigences variées sont impliqués. SCRUM est particulièrement adapté pour optimiser la satisfaction des utilisateurs grâce à ses revues régulières et une transparence accrue.
 
@@ -85,7 +81,7 @@ Après avoir commencé par définir les objectifs du projet, nous utilisons le p
 
 Dans ce processus, nous suivons une série d’étapes bien définies qui s'articulent autour du Product Backlog, des sprints, et de l'itération continue pour améliorer et peaufiner le produit. Voici comment ces étapes se déploient :
 
-[ *illustration* ]
+![Rituel SCRUM](../imgs/methodologie/scrum.png)
 
  - <u>**Product Backlog**</u>\
 Au cœur de notre gestion de projet SCRUM, il s'agit de la liste de toutes les fonctionnalités, améliorations, et corrections de bugs que nous envisageons pour le serveur Discord. Il est continuellement mis à jour et révisé pour refléter les nouvelles informations et les priorités changeantes du projet.\
