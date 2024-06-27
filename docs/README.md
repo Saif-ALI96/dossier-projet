@@ -36,6 +36,6 @@
 
 ## Liste de compétences du référentiel
 
-<img src="image.png" alt="images pour les competences du referentiel"/>
+<img src="../docs/imgs/image.png" alt="images pour les competences du referentiel"/>
 
 ---
