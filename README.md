@@ -4,38 +4,59 @@
 
 > ### Table des matières
 >
-> - resume de projet/
+> - 📄 [Présentation du Projet](/docs/presentation-projet/presenation.md)
 >
->   - 📄 [resume](./resume-projet/resume.md)
+> - 📄 [Résume de projet](/docs/resume-projet/resume.md)
 >
-> - specification fonctionnelles/
+> - **Spécification fonctionnelles**
 >
->   - cahier des charges/
+>   - **Cahier des charges**
 >
->     - 📄 [contexte-et-enjeux](./specification-fonctionnelles/cahier-des-charges/contexte-et-enjeux.md)
->     - 📄 [composition-equipe](./specification-fonctionnelles/cahier-des-charges/composition-equipe.md)
->     - 📄 [analyse-des-besoins](./specification-fonctionnelles/cahier-des-charges/analyse-des-besoins.md)
->     - 📄 [personnas](./specification-fonctionnelles/cahier-des-charges/personnas.md)
+>     - 📄 [Contexte et Enjeux](/docs/specification-fonctionnelles/cahier-des-charges/contexte-et-enjeux.md)
+>     - 📄 [Analyse des Besoins](/docs/specification-fonctionnelles/cahier-des-charges/analyse-des-besoins.md)
+>     - 📄 [Personnas](/docs/specification-fonctionnelles/cahier-des-charges/personnas.md)
+>     - 📄 [Composition de l'Équipe](/docs/specification-fonctionnelles/cahier-des-charges/composition-equipe.md)
 >
->   - 📄 [methodologie](./specification-fonctionnelles/methodologie.md)
+>   - 📄 [Méthodologie et Plannification](/docs/specification-fonctionnelles/methodologie.md)
 >
->   - 📄 [regles-gestion](./specification-fonctionnelles/regles-gestion.md)
->   - 📄 [RBAC](./specification-fonctionnelles/RBAC.md)
+>   - 📄 [Règles de Gestion](/docs/specification-fonctionnelles/regles-gestion.md)
+>   - 📄 [RBAC](/docs/specification-fonctionnelles/RBAC.md)
 >
-> - specification techniques/
+> - **Spécification techniques**
 >
->   - Base de Données/
->     - [choix-BDD](./specification-techniques/base-de-donnee/choix-BDD.md)
->     - [strategie-securisation-BDD](./specification-techniques/base-de-donnee/strategie-securisation-BDD.md)
->   - api/
+>   - **Côté Base de Données**
+>     - 📄 [RGPD](/specification-techniques/base-de-donnee/RGPD.md)
 >
->     - 📄 [choix-stack](./specification-techniques/api/choix-stack-API.md)
->     - 📄 [strategie-securisation-API](./specification-techniques/api/strategie-securisation-API.md)
+>     - 📄 [Stratégie de Sécurisation](/docs/specification-techniques/base-de-donnee/strategie-securisation-BDD.md)
+>
+>     - **MERISE**
+>
+>       - 📄 [MCD]()
+>       - 📄 [MLD]()
+>       - 📄 [Dictionnaire de données]()
+>       - 📄 [MPD]()
+>
+>     - 📄 [Choix des Technos](/docs/specification-techniques/base-de-donnee/choix-BDD.md)
+>
+>   - **Côté API**
+>
+>     - 📄 [Stratégie de Sécurisation](/docs/specification-techniques/api/strategie-securisation-API.md)
+>
+>     - **UML**
+>
+>       - 📄 [Diagramme d'Activité]()
+>       - 📄 [Diagramme de Cas d'Utilisation]()
+>       - 📄 [Diagramme de Classes]()
+>       - 📄 [Diagrammes de Séquence]()
+>
+>     - 📄 [Choix des Technos](/docs/specification-techniques/api/choix-stack-API.md)
+>
+>.
 
 ---
 
 ## Liste de compétences du référentiel
 
-<img src="../docs/imgs/image.png" alt="images pour les competences du referentiel"/>
+<img src="./docs/imgs/image-docs/image.png" alt="Images pour les competences du referentiel"/>
 
 ---
