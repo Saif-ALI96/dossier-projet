@@ -1,5 +1,7 @@
 # Présentation du Projet SimplOnboarding
 
+
+
 Nous sommes ravis de vous introduire le projet SimplOnboarding, développé dans le cadre de notre stage pour la certification de Concepteur Développeur d'Applications (CDA) chez Simplon. Ce projet s'aligne avec les objectifs de notre formation, impliquant la conception, le développement et le déploiement d'applications sécurisées, et mettant en œuvre les meilleures pratiques actuelles de la cybersécurité et de la communication numérique.
 
 ## Qu'est-ce que ce REPO GitHub ?
@@ -33,3 +35,16 @@ Les parties prenantes de ce projet sont les suivantes :
 - Les membres des équipes Simplon HDF ainsi que les apprenants et alumnis (Les utilisateurs réguliers)
 
 Ce projet de stage non seulement contribue à notre développement professionnel en tant que concepteurs et développeurs, mais vise aussi à apporter une valeur ajoutée significative à la communauté Simplon HDF par une meilleure structuration de la communication et un renforcement du sentiment d'appartenance parmi tous ses membres.
+
+<div align="right">
+    <a href="#présentation-du-projet-simplonboarding">
+        <img src="../imgs/image-docs/icon-vers-le-haut.png" alt="Retour vers le haut" style="width: 25px;" />
+    </a>
+</div>
+<div align="left">
+    <a href="/README.md">
+        <img src="../imgs/image-docs/summary.png" alt="Retour vers le haut" style="width: 100px;" />
+    </a>
+</div>
+
+
