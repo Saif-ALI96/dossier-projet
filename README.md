@@ -2,13 +2,13 @@
 
 ---
 
-> ### Table des matières
+> ## <u>Table des matières</u>
 >
 > - 📄 [Présentation du Projet](/docs/presentation-projet/presenation.md)
 >
 > - 📄 [Résume de projet](/docs/resume-projet/resume.md)
 >
-> - **Spécification fonctionnelles**
+> ### - <u>**Spécification fonctionnelles**</u>
 >
 >   - **Cahier des charges**
 >
@@ -22,7 +22,7 @@
 >   - 📄 [Règles de Gestion](/docs/specification-fonctionnelles/regles-gestion.md)
 >   - 📄 [RBAC](/docs/specification-fonctionnelles/RBAC.md)
 >
-> - **Spécification techniques**
+> ### - <u>**Spécification techniques**</u>
 >
 >   - **Côté Base de Données**
 >     - 📄 [RGPD](/docs/specification-techniques/base-de-donnee/RGPD.md)
