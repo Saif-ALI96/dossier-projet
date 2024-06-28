@@ -25,16 +25,16 @@
 > - **Spécification techniques**
 >
 >   - **Côté Base de Données**
->     - 📄 [RGPD](/specification-techniques/base-de-donnee/RGPD.md)
+>     - 📄 [RGPD](/docs/specification-techniques/base-de-donnee/RGPD.md)
 >
 >     - 📄 [Stratégie de Sécurisation](/docs/specification-techniques/base-de-donnee/strategie-securisation-BDD.md)
 >
 >     - **MERISE**
 >
->       - 📄 [MCD]()
->       - 📄 [MLD]()
->       - 📄 [Dictionnaire de données]()
->       - 📄 [MPD]()
+>       - 📄 [MCD](/docs/specification-techniques/base-de-donnee/MERISE/MCD.MD)
+>       - 📄 [MLD](/docs/specification-techniques/base-de-donnee/MERISE/MLD.MD)
+>       - 📄 [Dictionnaire de données](/docs/specification-techniques/base-de-donnee/MERISE/dictionnaire-donnees.md)
+>       - 📄 [MPD](/docs/specification-techniques/base-de-donnee/MERISE/MPD.md)
 >
 >     - 📄 [Choix des Technos](/docs/specification-techniques/base-de-donnee/choix-BDD.md)
 >
@@ -44,10 +44,10 @@
 >
 >     - **UML**
 >
->       - 📄 [Diagramme d'Activité]()
->       - 📄 [Diagramme de Cas d'Utilisation]()
->       - 📄 [Diagramme de Classes]()
->       - 📄 [Diagrammes de Séquence]()
+>       - 📄 [Diagramme d'Activité](/docs/specification-techniques/api/UML/diagramme-activite.md)
+>       - 📄 [Diagramme de Cas d'Utilisation](/docs/specification-techniques/api/UML/diagramme-cas-utilisation.md)
+>       - 📄 [Diagramme de Classes](/docs/specification-techniques/api/UML/diagramme-classe.md)
+>       - 📄 [Diagrammes de Séquence](/docs/specification-techniques/api/UML/diagramme-sequence.md)
 >
 >     - 📄 [Choix des Technos](/docs/specification-techniques/api/choix-stack-API.md)
 >
