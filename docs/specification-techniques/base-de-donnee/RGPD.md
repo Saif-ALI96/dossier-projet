@@ -4,7 +4,6 @@ Dans le cadre du développement de notre projet, nous nous engageons à respecte
 
 ### 1. Pseudonymisation et Minimisation des Données
 - **Anonymisation** : Nous modifions les données personnelles pour qu'elles ne puissent pas être associées à un individu spécifique sans l'utilisation d'informations supplémentaires.
-- **Pseudonymisation** : Les données sont traitées de manière à ce que l'on ne puisse pas attribuer les données à une personne spécifique sans informations supplémentaires.
 - **Collecte limitée** : Nous nous assurons de ne collecter que les données strictement nécessaires pour le fonctionnement du projet.
 - **Suppression des données inutiles** : Les données non essentielles sont supprimées pour minimiser les risques de fuites ou d'abus.
 
@@ -14,7 +13,6 @@ Dans le cadre du développement de notre projet, nous nous engageons à respecte
 
 ### 3. Droits des utilisateurs
 - **Accès et rectification** : Les utilisateurs peuvent accéder à leurs données et les corriger si elles sont inexactes.
-- **Droit à l'oubli** : Les utilisateurs peuvent demander la suppression de leurs données personnelles.
 - **Portabilité des données** : Les utilisateurs ont le droit de recevoir leurs données dans un format structuré et de les transférer à un autre responsable du traitement.
 
 ### 4. Sécurité des Données
